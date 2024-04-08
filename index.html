@@ -17,7 +17,25 @@
       <a href="/page2.html">Other page</a>
     </nav>
     <main>
-      <h1>Home page</h1>
+      <h1>Number</h1>
+      <div id="Wrapper">
+        <h1>Number guessing game</h1>
+        <p>Try and guess a random between 1 to 100</p>
+        <p>you have 10 attempt to guess the right number</p>
+        <br>
+        <form class="form" >
+          <label for= "guessfield" id="guess">guess a number</label>
+          <input type="text" id="guessfield">
+          <input type="submit" id="subt"value="submit guess"
+          class="guesssubmit">
+
+        </form>
+        <div class="resultparas">
+          <p>previous guesses: <span class="guesses"></span></p>
+          <p>guesses Remaining <span class="last Result">10</span></p>
+          <p class="lowerhi"></p>
+        </div>
+      </div>
     </main>
   </body>
 </html>
